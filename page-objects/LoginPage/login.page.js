@@ -23,7 +23,6 @@ exports.LoginPage = class LoginPage {
     async verifyLoginSuccess(url){
         await expect(this.page).toHaveURL(url);
         await expect(this.site_page).toBeVisible({timeout: 10000});
-        await this.page.waitForTimeout(10000)
     }
 
     async verifyErrorMessage(url, errorMessage) {
