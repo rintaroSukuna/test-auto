@@ -1,0 +1,11 @@
+{
+  "loginCredentials": {
+    "email": "test@gmail.com",
+    "password": "12345678",
+    "notValidPassword": "12341234"
+  },
+  "urls": {
+    "chats": "https://dev.omni-dispatch.com/chats",
+    "login": "https://dev.omni-dispatch.com/login"
+  }
+}
